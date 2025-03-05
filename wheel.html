@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎡 วงล้อเสี่ยงทายดวงนักลงทุน! 🎡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎡 วงล้อเสี่ยงทายดวงนักลงทุน! 🎡</h1>
+        <p>กรอก GPA ของคุณ แล้วหมุนวงล้อ!</p>
+        
+        <input type="number" id="gpaInput" min="0" max="4" step="0.01" placeholder="กรอก GPA (0 - 4.00)">
+        <button id="spinBtn" disabled>🎰 หมุนวงล้อ! 🎰</button>
+        
+        <div class="wheel-container">
+            <div id="wheel" class="wheel"></div>
+        </div>
+        
+        <p id="result"></p>
+        
+        <button id="nextBtn" style="display: none;">➡ ไปเลือกสิ่งศักดิ์สิทธิ์ ➡</button>
+    </div>
+
+    <script src="wheel.js"></script>
+</body>
+</html>
